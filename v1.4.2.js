@@ -14,7 +14,7 @@
 /*************/
 
 let versions = {
-    db: (await(await fetch("https://raw.githubusercontent.com/FlameFlmae/flowrmodvers/main/v.txt")).text()).split('\n')[0],
+    db: 'v1.4.2',//(await(await fetch("https://raw.githubusercontent.com/FlameFlmae/flowrmodvers/main/v.txt")).text()).split('\n')[0],
     script: 'v1.4.1',
     client: (await(await fetch("./client.js")).text()).split(' ')[2]
 }
