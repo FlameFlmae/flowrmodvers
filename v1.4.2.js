@@ -16,7 +16,7 @@
 let versions = {
     db: 'v1.4.2',//(await(await fetch("https://raw.githubusercontent.com/FlameFlmae/flowrmodvers/main/v.txt")).text()).split('\n')[0],
     script: 'v1.4.1',
-    client: (await(await fetch("./client.js")).text()).split(' ')[2]
+    client: '10.1',//(await(await fetch("./client.js")).text()).split(' ')[2]
 }
 console.log(versions)
 
